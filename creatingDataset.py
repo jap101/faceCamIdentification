@@ -39,4 +39,4 @@ def extract_frames(video_folder, output_folder):
             cap.release()
 
 # Example usage
-extract_frames("dataset/input_videos", "dataset/output_frames")
+extract_frames("dataset/unseen_test/input_videos", "dataset/unseen_test/output_frames")

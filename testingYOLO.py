@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw
 from ultralytics import YOLO
 
 # Load the trained YOLO model
-model = YOLO('runs/detect/train/weights/best.pt')
+model = YOLO('runs/detect/train2/weights/best.pt')
 
 # Set the device (CPU, GPU, or MPS)
 device = torch.device('mps') if torch.backends.mps.is_available() else torch.device('cuda' if torch.cuda.is_available() else 'cpu')
